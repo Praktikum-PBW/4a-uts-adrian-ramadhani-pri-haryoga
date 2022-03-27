@@ -1,0 +1,77 @@
+/* Navbar */
+#main-navbar a{
+    border-bottom: 5px solid #f8f9fa;
+    text-transform: uppercase;
+}
+#main-navbar a:hover, #main-navbar .active{
+    border-bottom-color: #000;
+    transition: border-color 500ms;
+}
+
+
+/* showcase */
+#showcase{
+    background: url('Assets/image/foto\ pondok.jpeg');
+    top: 0%;
+    bottom: 0%;
+    height: 600px;
+    padding-top: 200px;
+    background-size: cover;
+    background-attachment:local;
+}
+
+#showcase h1{
+    padding-top: 250px;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#showoff-1{
+    font-family: 'Times New Roman', Times, serif;
+}
+#showoff-2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    font-size: 20px;
+}
+#showoff-3{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    font-size: 20px;
+}
+#sejarah{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#sejarah p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: justify;
+}
+#pendidikan {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#pendidikan li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#card{
+    height: 50px;
+}
+
+.dark-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position :absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+}
+#card h3{
+    text-align: center;
+    font-size: 18px;
+}
+/* Product */
+#product i[class^="bi"]{
+    font-size: 4rem;
+}
